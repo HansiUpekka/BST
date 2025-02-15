@@ -1,73 +1,59 @@
-## README - Binary Search Tree Dictionary
+## **README - Binary Search Tree Dictionary**
 
-### Student Details
-- **Name:** [Your Name]  
-- **Index Number:** [Your Index Number]  
-- **Email Address:** [Your Email]  
+### **Student Details**
+- Name:          M. A. Hansi Upekka Sithumini
+- Index Number:  23001968
+- Email Address: hansiupekkasithumini2002@gmail.com 
 
----
 
-### Program Description
-This program implements a **Dictionary using a Binary Search Tree (BST)**. It reads words from a file and inserts them into a BST dynamically. The program then provides functionalities to:
+### **Program Description**
+This program implements a **Dictionary using a Binary Search Tree (BST)**. It reads words from a file and inserts them into a BST dynamically. The program provides functionalities to:
 
-1. Compute the **height** of the tree.
-2. Compute the **size** (number of nodes) in the tree.
-3. Find the **smallest (minimum) word** in the BST.
-4. Find the **largest (maximum) word** in the BST.
-5. Create and display the **mirror image** of the BST.
+**1. Compute the **height** of the tree.                       => findHeight() function <br>
+2. Compute the **size** (number of nodes) in the tree.       => findSize() <Br>
+3. Find the **smallest (minimum) word** in the BST.          => findMin() <br>
+4. Find the **largest (maximum) word** in the BST.           => findMax() <br>
+5. Create and display the **mirror image** of the BST.       => mirrorImage()**
 
-The input file must contain a list of words, one per line.
-
----
 
 ### **Compilation & Execution**
+
 #### **1. Compiling the Code**
-To compile the program on Linux, use:
-```bash
-gcc -o bst bst.c
-```
+
+~ To compile the program on Linux, use: <br>
+bash 
+<br><br>
+**gcc BST.c -o main**
+<br>
+
 
 #### **2. Running the Program**
-```bash
-./bst
-```
+bash <br><br>
+**./main**
 
-Make sure that the input file (`input_file.txt`) is present in the same directory as the executable.
 
----
+Make sure that the input file ("input_file.txt") is present in the same directory as the executable.<br>
+In my case, "BST.c" file and "input.txt" file are in the same directory which is named "FOA".
+
+
 
 ### **Input File Format**
-The program reads words from a file named **`input_file.txt`**. The words should be listed one per line, for example:
-```
-Cat
-Dog
-Rat
-Bat
-Bag
-Nut
-Mug
-Cup
-Kid
-Dig
-```
+The program reads words from a file named "input_file.txt".
 
----
+**cat dog rat bat bag nut mug cup kid dig**
+
 
 ### **Testing Environment**
-- This code was **tested on Linux** using **GCC**.
+- This code was tested on Linux using " gcc ".
 - It successfully compiles and runs without errors.
 
----
+
 
 ### **Special Notes**
-- The program **ignores duplicate words** during insertion.
+- I put a method to the program **ignores duplicate words** during insertion.
 - Debugging statements are included for clarity but can be removed if not needed.
-- The BST operations ensure an **efficient O(log n) average time complexity**.
 
-If any issues arise, please verify that the input file is correctly formatted and placed in the working directory.
 
----
 
-### **Acknowledgment**
-This submission is my own work, and I have followed all the requirements stated in the assignment.
+
 
